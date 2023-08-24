@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.Form-box{
+   position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 60%;
+   border-radius: 2%;
+     text-align: center;
+    transform: translate(0,-50%);
+}
+.create-text{
+    background-color: chartreuse;
+   display: block;
+    width: 50%;
+    color: black;
+   border-radius: 25px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate-reverse;
+}
+@keyframes example {
+    from{
+        transform: translateX(20%);
+    }
+    to{
+        transform: translateX(90%);
+    }
+   
+}
+.create-text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.Form-box:hover{
+    background-color: whitesmoke;
+}
+.box{
+    margin-top: 30px;
+    width: 80%;
+    height: 50%;
+    padding-left:350px;
+   
+}
+.Text{
+ width: 100%;
+    height: 50%;
+  }
+#btn-see-users{
+  margin-top: 0px;
+ float: right;
+ font-weight: 600;
+}
+
+#btn-edit{
+    color: white;
+    background-color: #007bff;
+    font-weight: 700;
+    border-radius: 6px;
+    width: 90px;
+    height: 40px;
+}
+#btn-delete{
+    color: white;
+    background-color: #343a40;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+/* CSS for Updatepage */
+#update-box{
+   height: 500px;
+}
+
+.heading{
+    text-align: center;
+    background-color:black;
+    width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin-left: 400px;
+  animation-name: heading;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes heading {
+    from{
+        color: chartreuse;
+    }
+    to{
+        color: whitesmoke;
+    }
+}
+#btn-update{
+    border: solid 2px black; 
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 600;
+}
